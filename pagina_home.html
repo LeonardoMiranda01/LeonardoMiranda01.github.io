@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks com várias páginas</title>
+    <style>
+        body {
+            background-color: yellow; /* Define a cor de fundo como amarela */
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            height: 100vh; /* Faz a página ocupar toda a altura da tela */
+            margin: 0; /* Remove margens padrão */
+            font-family: Arial, sans-serif; /* Define a fonte */
+        }
+
+        .container {
+            text-align: center; /* Alinha o conteúdo ao centro */
+            padding: 20px; /* Adiciona um preenchimento ao redor do conteúdo */
+            border: 2px solid black; /* Adiciona uma borda ao redor do conteúdo */
+            border-radius: 10px; /* Adiciona cantos arredondados à borda */
+            background-color: white; /* Define a cor de fundo do contêiner */
+            max-width: 600px; /* Define a largura máxima do contêiner */
+        }
+
+        h1 {
+            margin-top: 0; /* Remove a margem superior do cabeçalho */
+        }
+
+        ul {
+            list-style-type: none; /* Remove os marcadores de lista */
+            padding: 0; /* Remove o preenchimento padrão da lista */
+        }
+
+        li {
+            margin-bottom: 10px; /* Adiciona um espaço entre os itens da lista */
+        }
+
+        a {
+            text-decoration: none; /* Remove o sublinhado padrão dos links */
+            color: black; /* Define a cor do texto como preto */
+            font-size: 18px; /* Define o tamanho da fonte */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WEB NOTAS - ESCOLA META</h1>
+        <ul>
+            <li><a href="cadastroaluno.html">>> CADASTRO DO ALUNO <<</a></li>
+            <li><a href="cadastromateria.html">>> CADASTRO DA MATÉRIA <<</a></li>
+            <li><a href="registronotas.html">>> REGISTRO DAS NOTAS <<</a></li>
+            <li><a href="consultarnota.html">>> CONSULTAR AS NOTAS <<</a></li>
+
+        </ul>
+    </div>
+</body>
+</html>

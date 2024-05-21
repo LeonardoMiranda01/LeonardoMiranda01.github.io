@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Notas</title>
+    <style>
+        body {
+            background-color: yellow;
+            text-align: center; /* Centraliza o texto do corpo */
+        }
+        form {
+            display: inline-block; /* Centraliza o formulário */
+            text-align: left; /* Alinha o texto dentro do formulário à esquerda */
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        h1, form {
+            text-align: center;
+        }
+        label, input {
+            display: block; /* Faz com que os elementos label e input ocupem a linha inteira */
+            margin: 10px 0; /* Adiciona espaçamento vertical entre os elementos */
+        }
+        input[type="submit"] {
+            margin-top: 20px; /* Adiciona espaçamento extra acima do botão de submissão */
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <h1>Registro de Notas</h1>
+    
+    <!-- Formulário -->
+    <form action="/submit" method="post">
+        <label for="nome">Nome do Aluno:</label>
+        <input type="text" id="nome" name="nome">
+        <label for="registroaluno">Registro do Aluno:</label>
+        <input type="text" id="registroaluno" name="registroaluno">
+        <label for="materia">Matéria:</label>
+        <input type="text" id="materia" name="materia">
+        <label for="primeiro_bimestre">1º Bimestre:</label>
+        <input type="text" id="primeiro_bimestre" name="primeiro_bimestre">
+        <label for="segundo_bimestre">2º Bimestre:</label>
+        <input type="text" id="segundo_bimestre" name="segundo_bimestre">
+        <label for="terceiro_bimestre">3º Bimestre:</label>
+        <input type="text" id="terceiro_bimestre" name="terceiro_bimestre">
+        <label for="quarto_bimestre">4º Bimestre:</label>
+        <input type="text" id="quarto_bimestre" name="quarto_bimestre">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
